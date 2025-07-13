@@ -1,0 +1,6 @@
+id=wirebare20240129
+name=WireBare certificate installer
+version=versionName
+versionCode=versionCode
+author=KokomiQAQ
+description=install WireBare certificate into Android system CA store
