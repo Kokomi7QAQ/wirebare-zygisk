@@ -72,7 +72,7 @@ tasks.register<Zip>("zipZygiskModule") {
     dependsOn("makeZygiskModule")
     // zip zygisk module
     val zygiskBuildDir = layout.buildDirectory.dir("zygisk").get()
-    archiveBaseName.set("wirebare_certficate_installer")
+    archiveBaseName.set("wirebare_certificate_installer")
     archiveVersion.set(android.defaultConfig.versionName)
     archiveExtension.set("zip")
     destinationDirectory.set(File(rootDir, "certificate").normalize())
